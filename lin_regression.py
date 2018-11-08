@@ -11,8 +11,6 @@ from keras import losses
 from keras.layers import Dense, Input
 import matplotlib.pyplot as plt
 
-
-
 # =============================================================================
 # 
 # =============================================================================
@@ -74,12 +72,6 @@ def main():
     # train (lin regression) 
     train(X=alpha,Y=Snew[...,0], model=model)
 
-    
-#    
-#    Y_model = model.predict(X)
-#    
-#    
-#    vis(X,Y,Y_model)
 
 main()
     
